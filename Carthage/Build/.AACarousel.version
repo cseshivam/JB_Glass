@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.1.0",
+  "iOS" : [
+    {
+      "name" : "AACarousel",
+      "hash" : "50cea1491ca35797744e306d84a41d43a5e3d83feb6ab02a2d6bd91783fe2b34"
+    }
+  ]
+}

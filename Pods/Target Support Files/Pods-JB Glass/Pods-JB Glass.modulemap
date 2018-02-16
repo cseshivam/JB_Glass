@@ -1,0 +1,6 @@
+framework module Pods_JB_Glass {
+  umbrella header "Pods-JB Glass-umbrella.h"
+
+  export *
+  module * { export * }
+}

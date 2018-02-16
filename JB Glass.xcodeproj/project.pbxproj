@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6331C82615B07B314F56CB10 /* Pods_JB_Glass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DDC0D4A7D8874502603038 /* Pods_JB_Glass.framework */; };
 		847AC10B2034EAA6007CB5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC10A2034EAA6007CB5AA /* AppDelegate.swift */; };
 		847AC10D2034EAA6007CB5AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC10C2034EAA6007CB5AA /* ViewController.swift */; };
 		847AC1102034EAA6007CB5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847AC10E2034EAA6007CB5AA /* Main.storyboard */; };
@@ -15,6 +16,25 @@
 		847AC1182034EAA6007CB5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847AC1162034EAA6007CB5AA /* LaunchScreen.storyboard */; };
 		847AC1232034EAA6007CB5AA /* JB_GlassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC1222034EAA6007CB5AA /* JB_GlassTests.swift */; };
 		847AC12E2034EAA6007CB5AA /* JB_GlassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC12D2034EAA6007CB5AA /* JB_GlassUITests.swift */; };
+		847AC13C2034EAD6007CB5AA /* JB_Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 847AC13B2034EAD6007CB5AA /* JB_Splash.png */; };
+		847AC1412034EB41007CB5AA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847AC13F2034EB41007CB5AA /* SWRevealViewController.m */; };
+		847AC1432034EE7B007CB5AA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 847AC1422034EE7B007CB5AA /* logo.png */; };
+		847AC1472034EFF0007CB5AA /* ic_menu_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847AC1442034EFF0007CB5AA /* ic_menu_2x.png */; };
+		847AC1482034EFF0007CB5AA /* ic_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 847AC1452034EFF0007CB5AA /* ic_menu.png */; };
+		847AC1492034EFF0007CB5AA /* ic_menu_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847AC1462034EFF0007CB5AA /* ic_menu_3x.png */; };
+		847AC14D2034F009007CB5AA /* ic_account_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 847AC14A2034F009007CB5AA /* ic_account_circle.png */; };
+		847AC14E2034F009007CB5AA /* ic_account_circle_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847AC14B2034F009007CB5AA /* ic_account_circle_2x.png */; };
+		847AC14F2034F009007CB5AA /* ic_account_circle_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847AC14C2034F009007CB5AA /* ic_account_circle_3x.png */; };
+		847AC1532034F020007CB5AA /* ic_notifications_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847AC1502034F020007CB5AA /* ic_notifications_2x.png */; };
+		847AC1542034F020007CB5AA /* ic_notifications_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847AC1512034F020007CB5AA /* ic_notifications_3x.png */; };
+		847AC1552034F020007CB5AA /* ic_notifications.png in Resources */ = {isa = PBXBuildFile; fileRef = 847AC1522034F020007CB5AA /* ic_notifications.png */; };
+		848C8F0820362B70008EBC7B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 848C8F0720362B6F008EBC7B /* 1.png */; };
+		848C8F0A20362B9B008EBC7B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 848C8F0920362B9B008EBC7B /* 2.png */; };
+		848C8F0F20363900008EBC7B /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C8F0E20363900008EBC7B /* ExternalAccessory.framework */; };
+		848C8F112036390B008EBC7B /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C8F102036390B008EBC7B /* HomeKit.framework */; };
+		848C8F1320363931008EBC7B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C8F1220363931008EBC7B /* NetworkExtension.framework */; };
+		8B79F1A2E08409376F3860C7 /* Pods_JB_GlassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB394A25754AD4B12D2FE548 /* Pods_JB_GlassUITests.framework */; };
+		AC1E7A1E0C4993A6EE5FF3B2 /* Pods_JB_GlassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FF4E373301959E1DCAE85 /* Pods_JB_GlassTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013FF4E373301959E1DCAE85 /* Pods_JB_GlassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JB_GlassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD006DD56F3CECDB0223CCE /* Pods-JB GlassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JB GlassUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JB GlassUITests/Pods-JB GlassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37DDC0D4A7D8874502603038 /* Pods_JB_Glass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JB_Glass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4034EB384173AB90307CFA12 /* Pods-JB Glass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JB Glass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JB Glass/Pods-JB Glass.debug.xcconfig"; sourceTree = "<group>"; };
+		6A6D32F93F7DB27C3CC12D45 /* Pods-JB GlassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JB GlassTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JB GlassTests/Pods-JB GlassTests.release.xcconfig"; sourceTree = "<group>"; };
 		847AC1072034EAA6007CB5AA /* JB Glass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JB Glass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847AC10A2034EAA6007CB5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847AC10C2034EAA6007CB5AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +74,30 @@
 		847AC1292034EAA6007CB5AA /* JB GlassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JB GlassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847AC12D2034EAA6007CB5AA /* JB_GlassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JB_GlassUITests.swift; sourceTree = "<group>"; };
 		847AC12F2034EAA6007CB5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847AC13B2034EAD6007CB5AA /* JB_Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JB_Splash.png; sourceTree = "<group>"; };
+		847AC13E2034EB40007CB5AA /* JB Glass-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JB Glass-Bridging-Header.h"; sourceTree = "<group>"; };
+		847AC13F2034EB41007CB5AA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		847AC1402034EB41007CB5AA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		847AC1422034EE7B007CB5AA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		847AC1442034EFF0007CB5AA /* ic_menu_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_2x.png; sourceTree = "<group>"; };
+		847AC1452034EFF0007CB5AA /* ic_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu.png; sourceTree = "<group>"; };
+		847AC1462034EFF0007CB5AA /* ic_menu_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_3x.png; sourceTree = "<group>"; };
+		847AC14A2034F009007CB5AA /* ic_account_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_circle.png; sourceTree = "<group>"; };
+		847AC14B2034F009007CB5AA /* ic_account_circle_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_circle_2x.png; sourceTree = "<group>"; };
+		847AC14C2034F009007CB5AA /* ic_account_circle_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_circle_3x.png; sourceTree = "<group>"; };
+		847AC1502034F020007CB5AA /* ic_notifications_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_notifications_2x.png; sourceTree = "<group>"; };
+		847AC1512034F020007CB5AA /* ic_notifications_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_notifications_3x.png; sourceTree = "<group>"; };
+		847AC1522034F020007CB5AA /* ic_notifications.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_notifications.png; sourceTree = "<group>"; };
+		848C8F0720362B6F008EBC7B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		848C8F0920362B9B008EBC7B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		848C8F0B203638E5008EBC7B /* JB Glass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JB Glass.entitlements"; sourceTree = "<group>"; };
+		848C8F0E20363900008EBC7B /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		848C8F102036390B008EBC7B /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		848C8F1220363931008EBC7B /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		99A737DB0A55F2073B7C2163 /* Pods-JB GlassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JB GlassTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JB GlassTests/Pods-JB GlassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C7158952969F4443434720 /* Pods-JB Glass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JB Glass.release.xcconfig"; path = "Pods/Target Support Files/Pods-JB Glass/Pods-JB Glass.release.xcconfig"; sourceTree = "<group>"; };
+		B23255202FD1567BFAEBD029 /* Pods-JB GlassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JB GlassUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JB GlassUITests/Pods-JB GlassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB394A25754AD4B12D2FE548 /* Pods_JB_GlassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JB_GlassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +105,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848C8F112036390B008EBC7B /* HomeKit.framework in Frameworks */,
+				848C8F1320363931008EBC7B /* NetworkExtension.framework in Frameworks */,
+				848C8F0F20363900008EBC7B /* ExternalAccessory.framework in Frameworks */,
+				6331C82615B07B314F56CB10 /* Pods_JB_Glass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1E7A1E0C4993A6EE5FF3B2 /* Pods_JB_GlassTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B79F1A2E08409376F3860C7 /* Pods_JB_GlassUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +134,15 @@
 		847AC0FE2034EAA6007CB5AA = {
 			isa = PBXGroup;
 			children = (
+				847AC1402034EB41007CB5AA /* SWRevealViewController.h */,
+				847AC13F2034EB41007CB5AA /* SWRevealViewController.m */,
 				847AC1092034EAA6007CB5AA /* JB Glass */,
 				847AC1212034EAA6007CB5AA /* JB GlassTests */,
 				847AC12C2034EAA6007CB5AA /* JB GlassUITests */,
 				847AC1082034EAA6007CB5AA /* Products */,
+				847AC13E2034EB40007CB5AA /* JB Glass-Bridging-Header.h */,
+				D8436605C303899F6A385C71 /* Pods */,
+				F7971404B02183F63534C195 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +159,7 @@
 		847AC1092034EAA6007CB5AA /* JB Glass */ = {
 			isa = PBXGroup;
 			children = (
+				848C8F0B203638E5008EBC7B /* JB Glass.entitlements */,
 				847AC10A2034EAA6007CB5AA /* AppDelegate.swift */,
 				847AC10C2034EAA6007CB5AA /* ViewController.swift */,
 				847AC10E2034EAA6007CB5AA /* Main.storyboard */,
@@ -106,6 +167,7 @@
 				847AC1162034EAA6007CB5AA /* LaunchScreen.storyboard */,
 				847AC1192034EAA6007CB5AA /* Info.plist */,
 				847AC1112034EAA6007CB5AA /* JB_Glass.xcdatamodeld */,
+				847AC13D2034EAED007CB5AA /* Files */,
 			);
 			path = "JB Glass";
 			sourceTree = "<group>";
@@ -128,6 +190,52 @@
 			path = "JB GlassUITests";
 			sourceTree = "<group>";
 		};
+		847AC13D2034EAED007CB5AA /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				847AC1502034F020007CB5AA /* ic_notifications_2x.png */,
+				848C8F0720362B6F008EBC7B /* 1.png */,
+				847AC1512034F020007CB5AA /* ic_notifications_3x.png */,
+				847AC1522034F020007CB5AA /* ic_notifications.png */,
+				848C8F0920362B9B008EBC7B /* 2.png */,
+				847AC14B2034F009007CB5AA /* ic_account_circle_2x.png */,
+				847AC14C2034F009007CB5AA /* ic_account_circle_3x.png */,
+				847AC14A2034F009007CB5AA /* ic_account_circle.png */,
+				847AC1442034EFF0007CB5AA /* ic_menu_2x.png */,
+				847AC1462034EFF0007CB5AA /* ic_menu_3x.png */,
+				847AC1452034EFF0007CB5AA /* ic_menu.png */,
+				847AC1422034EE7B007CB5AA /* logo.png */,
+				847AC13B2034EAD6007CB5AA /* JB_Splash.png */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		D8436605C303899F6A385C71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4034EB384173AB90307CFA12 /* Pods-JB Glass.debug.xcconfig */,
+				A6C7158952969F4443434720 /* Pods-JB Glass.release.xcconfig */,
+				99A737DB0A55F2073B7C2163 /* Pods-JB GlassTests.debug.xcconfig */,
+				6A6D32F93F7DB27C3CC12D45 /* Pods-JB GlassTests.release.xcconfig */,
+				B23255202FD1567BFAEBD029 /* Pods-JB GlassUITests.debug.xcconfig */,
+				1BD006DD56F3CECDB0223CCE /* Pods-JB GlassUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7971404B02183F63534C195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848C8F1220363931008EBC7B /* NetworkExtension.framework */,
+				848C8F102036390B008EBC7B /* HomeKit.framework */,
+				848C8F0E20363900008EBC7B /* ExternalAccessory.framework */,
+				37DDC0D4A7D8874502603038 /* Pods_JB_Glass.framework */,
+				013FF4E373301959E1DCAE85 /* Pods_JB_GlassTests.framework */,
+				FB394A25754AD4B12D2FE548 /* Pods_JB_GlassUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847AC1322034EAA6007CB5AA /* Build configuration list for PBXNativeTarget "JB Glass" */;
 			buildPhases = (
+				222296F94F0C4614696C0357 /* [CP] Check Pods Manifest.lock */,
 				847AC1032034EAA6007CB5AA /* Sources */,
 				847AC1042034EAA6007CB5AA /* Frameworks */,
 				847AC1052034EAA6007CB5AA /* Resources */,
+				E50F3FD4678906845FA65023 /* [CP] Embed Pods Frameworks */,
+				26DF31BBB96E7B95795A979A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847AC1352034EAA6007CB5AA /* Build configuration list for PBXNativeTarget "JB GlassTests" */;
 			buildPhases = (
+				C7F553AC198AC59A9BEE8D55 /* [CP] Check Pods Manifest.lock */,
 				847AC11A2034EAA6007CB5AA /* Sources */,
 				847AC11B2034EAA6007CB5AA /* Frameworks */,
 				847AC11C2034EAA6007CB5AA /* Resources */,
+				13ADD8D7138BD70B8542046B /* [CP] Embed Pods Frameworks */,
+				DC787EB37717608C4490A77C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847AC1382034EAA6007CB5AA /* Build configuration list for PBXNativeTarget "JB GlassUITests" */;
 			buildPhases = (
+				6A3305E35F020C89660CE298 /* [CP] Check Pods Manifest.lock */,
 				847AC1252034EAA6007CB5AA /* Sources */,
 				847AC1262034EAA6007CB5AA /* Frameworks */,
 				847AC1272034EAA6007CB5AA /* Resources */,
+				7AF9777CA2494A78F9BC0AAC /* [CP] Embed Pods Frameworks */,
+				CF7B0F2DAD6233FFEAC765EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +313,34 @@
 				TargetAttributes = {
 					847AC1062034EAA6007CB5AA = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.HotspotConfiguration = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 					847AC11D2034EAA6007CB5AA = {
 						CreatedOnToolsVersion = 9.2;
@@ -236,7 +380,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				847AC1182034EAA6007CB5AA /* LaunchScreen.storyboard in Resources */,
+				847AC1542034F020007CB5AA /* ic_notifications_3x.png in Resources */,
+				847AC1482034EFF0007CB5AA /* ic_menu.png in Resources */,
+				847AC14F2034F009007CB5AA /* ic_account_circle_3x.png in Resources */,
+				847AC1432034EE7B007CB5AA /* logo.png in Resources */,
+				847AC1532034F020007CB5AA /* ic_notifications_2x.png in Resources */,
+				847AC1552034F020007CB5AA /* ic_notifications.png in Resources */,
+				847AC14E2034F009007CB5AA /* ic_account_circle_2x.png in Resources */,
+				847AC14D2034F009007CB5AA /* ic_account_circle.png in Resources */,
+				848C8F0820362B70008EBC7B /* 1.png in Resources */,
+				848C8F0A20362B9B008EBC7B /* 2.png in Resources */,
+				847AC1492034EFF0007CB5AA /* ic_menu_3x.png in Resources */,
+				847AC1472034EFF0007CB5AA /* ic_menu_2x.png in Resources */,
 				847AC1152034EAA6007CB5AA /* Assets.xcassets in Resources */,
+				847AC13C2034EAD6007CB5AA /* JB_Splash.png in Resources */,
 				847AC1102034EAA6007CB5AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +414,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13ADD8D7138BD70B8542046B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JB GlassTests/Pods-JB GlassTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		222296F94F0C4614696C0357 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JB Glass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26DF31BBB96E7B95795A979A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JB Glass/Pods-JB Glass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A3305E35F020C89660CE298 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JB GlassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF9777CA2494A78F9BC0AAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JB GlassUITests/Pods-JB GlassUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F553AC198AC59A9BEE8D55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JB GlassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7B0F2DAD6233FFEAC765EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JB GlassUITests/Pods-JB GlassUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC787EB37717608C4490A77C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JB GlassTests/Pods-JB GlassTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E50F3FD4678906845FA65023 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JB Glass/Pods-JB Glass-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LIHImageSlider/LIHImageSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LIHImageSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JB Glass/Pods-JB Glass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		847AC1032034EAA6007CB5AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +584,7 @@
 				847AC10D2034EAA6007CB5AA /* ViewController.swift in Sources */,
 				847AC10B2034EAA6007CB5AA /* AppDelegate.swift in Sources */,
 				847AC1132034EAA6007CB5AA /* JB_Glass.xcdatamodeld in Sources */,
+				847AC1412034EB41007CB5AA /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +748,20 @@
 		};
 		847AC1332034EAA6007CB5AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4034EB384173AB90307CFA12 /* Pods-JB Glass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "JB Glass/JB Glass.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 649HNG2M47;
 				INFOPLIST_FILE = "JB Glass/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JB.JB-Glass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JB Glass-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,14 +769,19 @@
 		};
 		847AC1342034EAA6007CB5AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C7158952969F4443434720 /* Pods-JB Glass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "JB Glass/JB Glass.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 649HNG2M47;
 				INFOPLIST_FILE = "JB Glass/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JB.JB-Glass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JB Glass-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +789,7 @@
 		};
 		847AC1362034EAA6007CB5AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A737DB0A55F2073B7C2163 /* Pods-JB GlassTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +807,7 @@
 		};
 		847AC1372034EAA6007CB5AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6D32F93F7DB27C3CC12D45 /* Pods-JB GlassTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +825,7 @@
 		};
 		847AC1392034EAA6007CB5AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23255202FD1567BFAEBD029 /* Pods-JB GlassUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +842,7 @@
 		};
 		847AC13A2034EAA6007CB5AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD006DD56F3CECDB0223CCE /* Pods-JB GlassUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
