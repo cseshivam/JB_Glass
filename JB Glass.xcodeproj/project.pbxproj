@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49C0A16B2038DD3300E73359 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C0A16A2038DD3300E73359 /* ImageCollectionViewCell.swift */; };
 		6331C82615B07B314F56CB10 /* Pods_JB_Glass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DDC0D4A7D8874502603038 /* Pods_JB_Glass.framework */; };
 		847AC10B2034EAA6007CB5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC10A2034EAA6007CB5AA /* AppDelegate.swift */; };
 		847AC10D2034EAA6007CB5AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC10C2034EAA6007CB5AA /* ViewController.swift */; };
@@ -59,6 +60,7 @@
 		1BD006DD56F3CECDB0223CCE /* Pods-JB GlassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JB GlassUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JB GlassUITests/Pods-JB GlassUITests.release.xcconfig"; sourceTree = "<group>"; };
 		37DDC0D4A7D8874502603038 /* Pods_JB_Glass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JB_Glass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4034EB384173AB90307CFA12 /* Pods-JB Glass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JB Glass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JB Glass/Pods-JB Glass.debug.xcconfig"; sourceTree = "<group>"; };
+		49C0A16A2038DD3300E73359 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		6A6D32F93F7DB27C3CC12D45 /* Pods-JB GlassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JB GlassTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JB GlassTests/Pods-JB GlassTests.release.xcconfig"; sourceTree = "<group>"; };
 		847AC1072034EAA6007CB5AA /* JB Glass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JB Glass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847AC10A2034EAA6007CB5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				847AC1192034EAA6007CB5AA /* Info.plist */,
 				847AC1112034EAA6007CB5AA /* JB_Glass.xcdatamodeld */,
 				847AC13D2034EAED007CB5AA /* Files */,
+				49C0A16A2038DD3300E73359 /* ImageCollectionViewCell.swift */,
 			);
 			path = "JB Glass";
 			sourceTree = "<group>";
@@ -582,6 +585,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				847AC10D2034EAA6007CB5AA /* ViewController.swift in Sources */,
+				49C0A16B2038DD3300E73359 /* ImageCollectionViewCell.swift in Sources */,
 				847AC10B2034EAA6007CB5AA /* AppDelegate.swift in Sources */,
 				847AC1132034EAA6007CB5AA /* JB_Glass.xcdatamodeld in Sources */,
 				847AC1412034EB41007CB5AA /* SWRevealViewController.m in Sources */,
@@ -754,7 +758,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "JB Glass/JB Glass.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 649HNG2M47;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "JB Glass/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -775,7 +779,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "JB Glass/JB Glass.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 649HNG2M47;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "JB Glass/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

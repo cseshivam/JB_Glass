@@ -15,25 +15,20 @@ import SDWebImage
 import Kingfisher
 import LIHImageSlider
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    
-    @IBOutlet weak var slideshow: ImageSlideshow!
     @IBOutlet weak var barButton: UIBarButtonItem!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
     @IBOutlet weak var slider1Container: UIView!
-   // @IBOutlet weak var slider2Container: UIView!
-
+    
+    var imageArray = [UIImage(named: "logo.png"),UIImage(named: "logo.png"),UIImage(named: "logo.png"),UIImage(named: "logo.png"),UIImage(named: "logo.png"),UIImage(named: "logo.png")]
+    
     fileprivate var sliderVc1: LIHSliderViewController!
-
-   // let alamofireSource = [AlamofireSource(urlString: "https://www.kiet.edu/images/KIET_Logo.png")!, AlamofireSource(urlString: "https://www.kiet.edu/images/KIET_Logo.png")!, AlamofireSource(urlString: "https://www.kiet.edu/images/KIET_Logo.png")!]
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
        barButton.image = UIImage(named: "logo.png")?.withRenderingMode(.alwaysOriginal)
         sideMenus()
-  //      slideshow.setImageInputs(alamofireSource)
   
         let images: [UIImage] = [UIImage(named: "2.png")!,UIImage(named: "2.png")!,UIImage(named: "2.png")!,UIImage(named: "2.png")!,UIImage(named: "2.png")!,UIImage(named: "2.png")!]
         
@@ -42,7 +37,6 @@ class ViewController: UIViewController {
         let slider1: LIHSlider = LIHSlider(images: images)
         slider1.customImageView?.frame=CGRect(x: 0, y: 0, width: 50, height: 50)
         self.sliderVc1  = LIHSliderViewController(slider: slider1)
-       // slider1.customImageView?.frame
         sliderVc1.delegate = self as? LIHSliderDelegate
     
         self.addChildViewController(self.sliderVc1)
@@ -66,7 +60,6 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -85,7 +78,15 @@ class ViewController: UIViewController {
             
         }
     }
-
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return imageArray.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCollectionViewCell", for: indexPath) as! ImageCollectionViewCell
+        cell.imgImage.image = imageArray[indexPath.row]
+        return cell
+    }
 
 }
 
