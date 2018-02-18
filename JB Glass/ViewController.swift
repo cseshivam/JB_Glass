@@ -22,7 +22,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     @IBOutlet weak var slider1Container: UIView!
     
-    var imageArray = [UIImage(named: "logo.png"),UIImage(named: "logo.png"),UIImage(named: "logo.png"),UIImage(named: "logo.png"),UIImage(named: "logo.png"),UIImage(named: "logo.png")]
+    var imageArray = [UIImage(named: "logo.png"),UIImage(named: "1.png"),UIImage(named: "2.png"),UIImage(named: "logo.png"),UIImage(named: "1.png"),UIImage(named: "logo.png")]
     
     fileprivate var sliderVc1: LIHSliderViewController!
     override func viewDidLoad() {

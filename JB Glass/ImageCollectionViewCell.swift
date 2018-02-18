@@ -11,4 +11,6 @@ import UIKit
 class ImageCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imgImage: UIImageView!
+    @IBOutlet weak var title_str: UILabel!
+    @IBOutlet weak var subtitle_str: UILabel!
 }
