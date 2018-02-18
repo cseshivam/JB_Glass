@@ -21,15 +21,35 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
     @IBOutlet weak var slider1Container: UIView!
+    @IBOutlet weak var CollectionViewA: UICollectionView!
+    
+    @IBOutlet weak var CollectionViewB: UICollectionView!
+    
+    let collectionViewAIdentifier = "ImageCollectionViewCell"
+    let collectionViewBIdentifier = "ImageCollectionViewCellB"
     
     var imageArray = [UIImage(named: "logo.png"),UIImage(named: "1.png"),UIImage(named: "2.png"),UIImage(named: "logo.png"),UIImage(named: "1.png"),UIImage(named: "logo.png")]
+    var title_list = ["Title1","Title2","Title3","Title4","Title5","Title6"]
+    var subtitle_list = ["Subtitle1","Subtitle2","Subtitle2","Subtitle2","Subtitle2","Subtitle2"]
+    var imageArray1 = [UIImage(named: "logo.png"),UIImage(named: "1.png"),UIImage(named: "2.png"),UIImage(named: "logo.png"),UIImage(named: "1.png"),UIImage(named: "logo.png")]
+    var title_list1 = ["Title1","Title2","Title3","Title4","Title5","Title6"]
+    var subtitle_list1 = ["Subtitle1","Subtitle2","Subtitle3","Subtitle4","Subtitle5","Subtitle6"]
     
     fileprivate var sliderVc1: LIHSliderViewController!
     override func viewDidLoad() {
         super.viewDidLoad()
-       barButton.image = UIImage(named: "logo.png")?.withRenderingMode(.alwaysOriginal)
+        barButton.image = UIImage(named: "logo.png")?.withRenderingMode(.alwaysOriginal)
         sideMenus()
-  
+        
+        CollectionViewA.delegate = self
+        CollectionViewB.delegate = self
+        
+        CollectionViewA.dataSource = self
+        CollectionViewB.dataSource = self
+        
+        self.view.addSubview(CollectionViewA)
+        self.view.addSubview(CollectionViewB)
+        
         let images: [UIImage] = [UIImage(named: "2.png")!,UIImage(named: "2.png")!,UIImage(named: "2.png")!,UIImage(named: "2.png")!,UIImage(named: "2.png")!,UIImage(named: "2.png")!]
         
         
@@ -79,12 +99,24 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         }
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return imageArray.count
+        if collectionView == self.CollectionViewA {
+            return imageArray.count
+        }
+        return imageArray1.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        if collectionView == self.CollectionViewA {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCollectionViewCell", for: indexPath) as! ImageCollectionViewCell
         cell.imgImage.image = imageArray[indexPath.row]
+        cell.title_str.text = title_list[indexPath.row]
+        cell.subtitle_str.text = subtitle_list[indexPath.row]
+        return cell
+        }
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCollectionViewCellB", for: indexPath) as! ImageCollectionViewCellB
+        cell.imgImage1.image = imageArray[indexPath.row]
+        cell.title_str1.text = title_list1[indexPath.row]
+        cell.subtitle_str1.text = subtitle_list1[indexPath.row]
         return cell
     }
 
