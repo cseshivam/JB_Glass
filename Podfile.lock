@@ -37,6 +37,7 @@ PODS:
   - SDWebImage (4.3.0):
     - SDWebImage/Core (= 4.3.0)
   - SDWebImage/Core (4.3.0)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
   - AFNetworking
@@ -47,6 +48,7 @@ DEPENDENCIES:
   - ImageSlideshow/Kingfisher
   - ImageSlideshow/SDWebImage
   - LIHImageSlider
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
@@ -56,7 +58,8 @@ SPEC CHECKSUMS:
   Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
   LIHImageSlider: ddf90c3a07e6f571b0e57629177a49eaf5bf15a3
   SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 49d10c074fa4ca2e60fb6a0b36a862eaeb0e857e
+PODFILE CHECKSUM: a1b95a88f3261698d4ae733da5dc5b1a9dc614da
 
 COCOAPODS: 1.4.0

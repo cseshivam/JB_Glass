@@ -11,6 +11,7 @@ target 'JB Glass' do
   pod "ImageSlideshow/AFURL"
   pod "ImageSlideshow/SDWebImage"
   pod "ImageSlideshow/Kingfisher"
+  pod 'SwiftyJSON'
   
   pod 'LIHImageSlider'
   

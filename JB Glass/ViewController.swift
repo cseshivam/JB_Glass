@@ -17,9 +17,12 @@ import LIHImageSlider
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
+    @IBOutlet weak var menuButton: UIButton!
     @IBOutlet weak var barButton: UIBarButtonItem!
-    @IBOutlet weak var menuButton: UIBarButtonItem!
-    
+    @IBAction func SideBar(_ sender: UIButton) {
+        let revealController = self.revealViewController() as! RevealViewController
+        revealController.reveal(sender)
+    }
     @IBOutlet weak var slider1Container: UIView!
     @IBOutlet weak var CollectionViewA: UICollectionView!
     
@@ -39,7 +42,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     override func viewDidLoad() {
         super.viewDidLoad()
         barButton.image = UIImage(named: "logo.png")?.withRenderingMode(.alwaysOriginal)
-        sideMenus()
+        //sideMenus()
         
         CollectionViewA.delegate = self
         CollectionViewB.delegate = self
@@ -87,7 +90,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
     }
     
-    func sideMenus(){
+    /*func sideMenus(){
         if revealViewController() != nil {
             menuButton.target = revealViewController()
             menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
@@ -97,7 +100,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
             
         }
-    }
+    }*/
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == self.CollectionViewA {
             return imageArray.count
